@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class AboutScreen extends StatelessWidget{const AboutScreen({super.key});@override Widget build(BuildContext c)=>Scaffold(appBar:AppBar(title:const Text('Tentang MI MART')),body:const Center(child:Text('Fitur siap dikembangkan.')));}

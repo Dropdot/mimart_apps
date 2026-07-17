@@ -1,0 +1,1 @@
+import 'package:flutter_secure_storage/flutter_secure_storage.dart'; class AuthStorage { static const s=FlutterSecureStorage(); static const k='mimart_user_token'; static Future<void> saveToken(String t)=>s.write(key:k,value:t); static Future<String?> token()=>s.read(key:k); static Future<void> clear()=>s.delete(key:k); }

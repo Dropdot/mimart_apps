@@ -1,0 +1,1 @@
+import 'package:flutter/material.dart';class PaymentMethodScreen extends StatelessWidget{const PaymentMethodScreen({super.key});@override Widget build(BuildContext c)=>Scaffold(appBar:AppBar(title:const Text('Metode Pembayaran')),body:const Center(child:Text('Fitur siap dikembangkan.')));}

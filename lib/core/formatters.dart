@@ -1,0 +1,1 @@
+import 'package:intl/intl.dart'; class Formatters{static final idr=NumberFormat.currency(locale:'id_ID',symbol:'Rp',decimalDigits:0);static String rupiah(dynamic v)=>idr.format(num.tryParse('$v')??0);}
